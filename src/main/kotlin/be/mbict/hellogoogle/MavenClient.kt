@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.bind.annotation.RequestParam
 
-@FeignClient(name = "maven", url = "https://search.maven.org/")
+@FeignClient(name = "maven")
 interface MavenClient {
 
     @RequestMapping(method = [RequestMethod.GET], value = ["solrsearch/select"])
