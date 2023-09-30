@@ -1,4 +1,4 @@
-package be.mbict.hellogoogle
+package be.mbict.hellomaven
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
@@ -6,7 +6,7 @@ import org.springframework.test.context.ActiveProfiles
 
 @SpringBootTest
 @ActiveProfiles("test")
-class HelloGoogleApplicationTests {
+class HelloMavenApplicationTests {
 
 	@Test
 	fun contextLoads() {

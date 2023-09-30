@@ -12,11 +12,11 @@ To build an executable jar file, run
 > mvn clean install
 
 Then start the application with java
-> java -jar target/hello-google-0.0.1-SNAPSHOT.jar
+> java -jar target/hello-maven-0.0.1-SNAPSHOT.jar
 
 #### docker
 To create a native docker image, run
 >mvn -Pnative spring-boot:build-image
 
 Then start the application with docker
-> docker run --rm -p 8080:8080 -e spring.cloud.openfeign.client.config.maven.url=https://search.maven.org/ hello-google:0.0.1-SNAPSHOT
+> docker run --rm -p 8080:8080 -e spring.cloud.openfeign.client.config.maven.url=https://search.maven.org/ hello-maven:0.0.1-SNAPSHOT

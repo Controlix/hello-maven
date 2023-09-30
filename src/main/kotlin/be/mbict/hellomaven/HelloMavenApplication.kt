@@ -1,4 +1,4 @@
-package be.mbict.hellogoogle
+package be.mbict.hellomaven
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -6,8 +6,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients
 
 @SpringBootApplication
 @EnableFeignClients
-class HelloGoogleApplication
+class HelloMavenApplication
 
 fun main(args: Array<String>) {
-	runApplication<HelloGoogleApplication>(*args)
+	runApplication<HelloMavenApplication>(*args)
 }

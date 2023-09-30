@@ -1,4 +1,4 @@
-package be.mbict.hellogoogle
+package be.mbict.hellomaven
 
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.RequestMapping

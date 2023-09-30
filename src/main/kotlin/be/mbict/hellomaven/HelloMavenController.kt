@@ -1,4 +1,4 @@
-package be.mbict.hellogoogle
+package be.mbict.hellomaven
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
